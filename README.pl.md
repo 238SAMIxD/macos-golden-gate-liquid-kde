@@ -35,7 +35,7 @@
 
 
 <p align="center">
-  <sub>Wybierz dystrybutor, aby zobaczyć jego status testowy.</sub>
+  <sub>Wybierz dystrybucję, aby zobaczyć jej status testowy.</sub>
 </p>
 
 <p align="center">
@@ -53,27 +53,27 @@
   <a href="https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/tests/vm/PROOF.md#nixos" title="NixOS (experimental)"><img src="src/screenshots/distros/nixos.svg" alt="NixOS" width="32" height="32"></a>
 </p>
 
-Ten projekt dostosowuje wygląd i wrażenie Twojego desktopu KDE na Linuxie. Nie obejmuje ani nie łączy się z usługami Apple. Jeśli potrzebujesz usług Apple, [zakupy bezpośrednio z Apple](https://www.apple.com/store).
+Ten projekt dostosowuje wygląd i doświadczenie Twojego pulpitu KDE na Linuxie. Nie obejmuje ani nie łączy się z usługami Apple. Jeśli potrzebujesz usług Apple, [kup bezpośrednio od Apple](https://www.apple.com/store).
 
 > [!CAUTION]
-> **Aktualizacje ciągłe**
-> Eksperymentalny. Otrzymuje codzienne informacje. Aktualizacje mogą zakłócić zgodność. Unikać systemów produkcyjnych; [zgłoś problem tutaj](https://github.com/lestercorderomurillo/macos-golden-gate-liquid-kde/issues/new).
+> **Filozofia ciągłych aktualizacji**
+> Eksperymentalnych. Otrzymuje codzienne uaktualnienia. Aktualizacje mogą zakłócić zgodność. Unikać instalacji na systemach produkcyjnych; [zgłoś problem tutaj](https://github.com/lestercorderomurillo/macos-golden-gate-liquid-kde/issues/new).
 
 > [!NOTE]
-> Zamarzenie funkcji jest w mocy dla serii 0.8x, z wydawnictwami koncentrującymi się na naprawach błędów do 0.90.
+> Wersje 0.8x i funkcje w nich zawarte są na etapie Code Freeze, koncentrując się na naprawach błędów do 0.90.
 
 > [!WARNING]
-> **Uważaj na przepakowy płatnych ścian: ten temat jest bezpłatny.**
+> **Uważaj na podróbki, które każą płacić: ten motyw jest bezpłatny.**
 >
-> Jeśli znalazłeś ten temat za pośrednictwem kanału zewnętrznego, nie musisz płacić, aby go zdobyć: pobierz go bezpośrednio z tego repozytorium. Trzymamy ten projekt za darmo, żeby wszyscy mogli go cieszyć bez płatności. Nie wymagane jest zakup lub subskrypcja.
+> Jeśli znalazłeś ten motyw za pośrednictwem stron trzecich, nie musisz płacić, aby go dostać: pobierz go bezpośrednio z tego repozytorium. Ten projekt jest dostępny za darmo, żeby wszyscy mogli się nim cieszyć bez płatności. Nie jest wymagany żaden zakup ani subskrypcja.
 
 <br>
 
-![Wpływ](https://img.shields.io/badge/contributing-A04B4B?style=for-the-badge&logo=github&logoColor=white)
+![Kontrybucje](https://img.shields.io/badge/contributing-A04B4B?style=for-the-badge&logo=github&logoColor=white)
 
-Raporty o błędach, naprawy, badania i dokumentacja: zobacz [Przewodnik wkładu](CONTRIBUTING.md).
+Zgłoszenia błędów, naprawy, testowanie i dokumentacja: zobacz [Przewodnik kontrybucji](CONTRIBUTING.md).
 
-Współpracownicy kodów i reporterzy w Tahoe i Golden Gate:
+Kontrybutorzy kodu i zgłaszający błędy w Tahoe i Golden Gate:
 
 <p>
   <a href="https://github.com/lestercorderomurillo"><img src="src/screenshots/contributors/lestercorderomurillo.svg" width="40" height="40" alt="@lestercorderomurillo" title="@lestercorderomurillo"></a>
@@ -141,11 +141,11 @@ Współpracownicy kodów i reporterzy w Tahoe i Golden Gate:
 
 <br>
 
-![Funkcje i zdjęcia ekranu](https://img.shields.io/badge/features-%26%20screenshots-4B6B8A?style=for-the-badge&logo=kde&logoColor=white)
+![Funkcje i zrzuty ekranu](https://img.shields.io/badge/features-%26%20screenshots-4B6B8A?style=for-the-badge&logo=kde&logoColor=white)
 
-### Dock z wielofarewnym wsparciem (Alfa)
+### Dock ze wsparciem wielokolorowym (Alpha)
 
-Szklana refrakcja, zwiększenie przesuwania, czerwone informacje o liczbie pęcherzy i automatyczne ukrywanie.
+Odbicie szklane, powiększenie po najechaniu, czerwone kropki powiadomień i automatyczne ukrywanie.
 
 <p align="center">
   <img src="src/screenshots/previews/golden-gate-dock-cb79eda877c7.gif" alt="Dock Golden Gate pokazujący wielofarebne ikony w trybie jasnym i ciemnym, a następnie rowerując przez odcienie tęczy" width="830">
@@ -153,9 +153,9 @@ Szklana refrakcja, zwiększenie przesuwania, czerwone informacje o liczbie pęch
 
 <br>
 
-### Shell (Alpha)
+### Powłoka Shell (Alpha)
 
-Pliki, edycja i inne menu aplikacji podążają za oknem aktywnym. Otwórz menu systemu do ustawień i kontroli sesji.
+Plik, edycja i inne menu aplikacji podążają za aktywnym oknem. Otwórz menu systemowe, aby przejść do ustawień i kontroli sesji.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="Menu plików z otwartym dokumentem w Kate" width="830">
@@ -164,7 +164,7 @@ Pliki, edycja i inne menu aplikacji podążają za oknem aktywnym. Otwórz menu 
 
 <br>
 
-### Szklane akrylowe 2.0 z adaptacyjnym kontrastem
+### Szkło akrylowe (Acrylic Glass) 2.0 z adaptacyjnym kontrastem
 
 Adaptive Contrast próbuje tła za każdym etykietą. Utrzymuje kolor tematu, gdy różnica wynosi co najmniej 33 punktów jasności postrzegania. Pod tym celem, stosuje najmniejszą korektę, jaką może, do 40% skali RGB, zachowując jednocześnie jasny tekst jasny i ciemny tekst ciemny. Wyłączenie używa koloru tematu.
 
